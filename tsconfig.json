@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "alwaysStrict": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "module": "commonjs", 
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "resolveJsonModule": true,
+        "lib": ["dom", "es2015", "es6", "es2019"], //https://basarat.gitbooks.io/typescript/docs/types/lib.d.ts.html#lib-option
+        "target": "es2019",
+        "typeRoots": [
+        "./node_modules/@types",
+        ],
+        "rootDir": "src",
+        "outDir": "build"
+    },
+    "exclude": [
+        "**/node_modules/*",
+        "coverage/*",
+        "build"
+    ]
+}
